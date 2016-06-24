@@ -11,7 +11,7 @@ Few features this project contains are --
  - one to one chat
  - Core data implementation of chat (text message) thus having saving of previous messages, offline messages.
  - implementation of vCard(profile information of user, own and others too) from XML and Core Data provided by Robbie Hanson's own framework.
- - availability of friends status (online/offline,typing)
+ - availability of friends status (online/offline/typing)
 
 ----------
 # **Steps to follow**
@@ -78,5 +78,5 @@ Development is still left and parts where I hope to include them later on
 
 In short this example project along with the singleton has almost all features that are needed for a One-to-One chat application to have.
 
-Share and help this example get better.
+Share and help this example to get better.
 A big thanks to Robbie Hanson for the awesome XMPP objective C framework. Cheers.
