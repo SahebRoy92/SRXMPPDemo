@@ -50,7 +50,8 @@ NSString* const SRXMPP_OtherUservCardUpdated            =           @"com.notifi
 NSString* const SRXMPP_jid                          =           @"com.SRXMPP.jid";
 NSString* const SRXMPP_pass                         =           @"com.SRXMPP.pass";
 
-NSString* const SRXMPP_Hostname                     =           @"Sahebs-Macbook.local";
+//Overwrite this to the IP of the server where Openfire is installed.
+NSString* const SRXMPP_Hostname                     =           @"Sahebs-Macbook.local"; 
 int const SRXMPP_Portname                           =           5222;
 
 
@@ -219,7 +220,7 @@ int const SRXMPP_Portname                           =           5222;
     //
     // If you don't specify a hostPort, then the default (5222) will be used.
     
-    [xmppStream setHostName:@"10.0.8.46"];
+    [xmppStream setHostName:SRXMPP_Hostname]; //10.0.8.46 - tirtho
     [xmppStream setHostPort:5222];
     
     
