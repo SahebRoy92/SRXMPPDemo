@@ -80,5 +80,5 @@ In short this example project along with the singleton has almost all features t
 
 Share and help this example to get better.
 A big thanks to Robbie Hanson for the awesome XMPP objective C framework.
-Also thanks to [Souvick Ghosh] (https://github.com/souvickcse), for the awesome support and help
+Also thanks to [souvickcse] (https://github.com/souvickcse), for the awesome support and help.
 Cheers.
