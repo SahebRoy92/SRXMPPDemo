@@ -79,4 +79,6 @@ Development is still left and parts where I hope to include them later on
 In short this example project along with the singleton has almost all features that are needed for a One-to-One chat application to have.
 
 Share and help this example to get better.
-A big thanks to Robbie Hanson for the awesome XMPP objective C framework. Cheers.
+A big thanks to Robbie Hanson for the awesome XMPP objective C framework.
+Also thanks to [Souvick Ghosh] (https://github.com/souvickcse), for the awesome support and help
+Cheers.
