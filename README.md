@@ -24,12 +24,12 @@ You want to use this project as a reference and you --
 **2. Want to try it out without a hassle in your own computer** - 
 
 You need to download, install and setup 2 things to start 
- *XAMPP* - 
+ *XAMPP - 
  
- a. Install XAMPP is relatively easy. 
- b. After installation just start the XAMPP and start Database(SQL) and Apache Server.
- c. Then open browser and paste this URL *http://localhost/phpmyadmin/*. Create a new DB from the left hand side panel.
- d. **Name the DB anything but remember this name, suppose we name it ChatDB** 
+ * Install XAMPP is relatively easy. 
+ * After installation just start the XAMPP and start Database(SQL) and Apache Server.
+ * Then open browser and paste this URL *http://localhost/phpmyadmin/*. Create a new DB from the left hand side panel.
+ * **Name the DB anything but remember this name, suppose we name it ChatDB** 
  
  *Openfire* - 
 
