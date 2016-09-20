@@ -12,7 +12,6 @@
 #import "XMPPFramework.h"
 #import "Header.h"
 
-
 extern NSString* const SRXMPP_RegisterNotification;
 extern NSString* const SRXMPP_ConnectNotification;
 extern NSString* const SRXMPP_AuthenticateNotification;

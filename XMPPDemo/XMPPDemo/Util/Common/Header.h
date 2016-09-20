@@ -59,7 +59,6 @@ typedef enum {
     kChatTyping,
     kChatOnline,
     kChatLastSeen
-
 } ChatTypingIndicator;
 
 typedef enum {

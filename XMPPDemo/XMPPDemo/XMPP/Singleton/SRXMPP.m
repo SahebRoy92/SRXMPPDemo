@@ -51,7 +51,7 @@ NSString* const SRXMPP_jid                          =           @"com.SRXMPP.jid
 NSString* const SRXMPP_pass                         =           @"com.SRXMPP.pass";
 
 //Overwrite this to the IP of the server where Openfire is installed.
-NSString* const SRXMPP_Hostname                     =           @"Sahebs-Macbook.local"; 
+NSString* const SRXMPP_Hostname                     =           @"localhost";
 int const SRXMPP_Portname                           =           5222;
 
 
@@ -784,20 +784,22 @@ int const SRXMPP_Portname                           =           5222;
 
 #pragma mark --- Chat Typing Indicator Methods ----
 
--(void)sendTypingStatusToJid:(NSString *)jidStr andStatus:(ChatTypingIndicator)indicator{
+-(void)sendTypingStatusToJid:(NSString *)jidStr andStatus:(id)indicator{
     
     NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
     [message addAttributeWithName:@"type" stringValue:@"chat"];
     [message addAttributeWithName:@"to" stringValue:jidStr];
     XMPPMessage *xmppMessage = [XMPPMessage messageFromElement:message];
     
-    if(indicator == kChatTyping){
+    ChatTypingIndicator indi = (ChatTypingIndicator)indicator;
+    
+    if(indi == kChatTyping){
         [xmppMessage addComposingChatState];
     }
-    else if (indicator == kChatOnline){
+    else if (indi == kChatOnline){
         [xmppMessage addActiveChatState];
     }
-    else if (indicator == kChatLastSeen){
+    else if (indi == kChatLastSeen){
         [xmppMessage addGoneChatState];
     }
     else {
